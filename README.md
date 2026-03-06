@@ -193,7 +193,7 @@ Dieses Projekt wurde im Rahmen meiner **IHK-Umschulung zum Fachinformatiker für
 ## 👨‍💻 Entwickler
 
 **Tobias Heiko Buß**
-- 📧 Email: THBuss@outlook.de
+- 📧 Email: tobias.buss.dev@gmail.com
 - 🐙 GitHub: [@tibo47-161](https://github.com/tibo47-161)
 - 📍 Hamburg, Deutschland
 
