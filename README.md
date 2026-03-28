@@ -1,4 +1,4 @@
-# 🎫 ArgoTicketTool
+# ArgoTicketTool
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/tibo47-161/ArgoTicketTool)
 [![IHK Project](https://img.shields.io/badge/IHK-Abschlussprojekt-green?style=for-the-badge)](https://github.com/tibo47-161/ArgoTicketTool)
@@ -10,18 +10,18 @@ Eine Chrome-Extension zur Automatisierung von Support-Anfragen im Zoho Creator S
 
 ---
 
-## 📋 Projektübersicht
+## Projektübersicht
 
 Das **ArgoTicketTool** ist eine Browser-Extension, die den Prozess der Ticket-Erstellung für Support-Anfragen erheblich vereinfacht und beschleunigt. Mitarbeiter können direkt aus dem Browser heraus Support-Tickets erstellen, ohne sich durch komplexe Formulare navigieren zu müssen.
 
-### 🎯 Problemstellung
+### Problemstellung
 
 - **Zeitaufwändige Ticket-Erstellung** über das Zoho Creator Web-Interface
 - **Komplexe Navigation** durch mehrere Formulare
 - **Fehlende Integration** in den täglichen Workflow
 - **Ineffiziente Prozesse** im IT-Support
 
-### ✅ Lösung
+### Lösung
 
 Eine intuitive Chrome-Extension, die:
 - Support-Tickets mit wenigen Klicks erstellt
@@ -31,20 +31,20 @@ Eine intuitive Chrome-Extension, die:
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ **Schnelle Ticket-Erstellung** direkt aus dem Browser
-- ✅ **OAuth2-Authentifizierung** für sichere Zoho Creator API-Zugriffe
-- ✅ **Cloudflare Worker Proxy** für zusätzliche Sicherheit und Rate-Limiting
-- ✅ **Benutzerfreundliches Popup-Interface** mit Formularvalidierung
-- ✅ **Automatisches Token-Refresh** für nahtlose Authentifizierung
-- ✅ **Konfigurierbare Einstellungen** über Options-Seite
-- ✅ **Support für verschiedene Request-Typen** (Bug, Feature, Support, etc.)
-- ✅ **Prioritätsstufen** (Low, Medium, High, Critical)
+- **Schnelle Ticket-Erstellung** direkt aus dem Browser
+- **OAuth2-Authentifizierung** für sichere Zoho Creator API-Zugriffe
+- **Cloudflare Worker Proxy** für zusätzliche Sicherheit und Rate-Limiting
+- **Benutzerfreundliches Popup-Interface** mit Formularvalidierung
+- **Automatisches Token-Refresh** für nahtlose Authentifizierung
+- **Konfigurierbare Einstellungen** über Options-Seite
+- **Support für verschiedene Request-Typen** (Bug, Feature, Support, etc.)
+- **Prioritätsstufen** (Low, Medium, High, Critical)
 
 ---
 
-## 🛠️ Technologie-Stack
+## ️ Technologie-Stack
 
 | Kategorie | Technologie |
 |-----------|-------------|
@@ -56,25 +56,25 @@ Eine intuitive Chrome-Extension, die:
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```
 ArgoTicketTool/
-├── manifest.json           # Chrome Extension Manifest V3
-├── background.js           # Service Worker
-├── Popup/
-│   ├── popup.html         # Hauptinterface
-│   └── popup.js           # Ticket-Erstellung Logik
-├── Options/
-│   ├── options.html       # Einstellungsseite
-│   └── options.js         # Konfigurationsverwaltung
-├── icons/                 # Extension Icons
-└── Doku/                  # Projektdokumentation
+ manifest.json # Chrome Extension Manifest V3
+ background.js # Service Worker
+ Popup/
+ popup.html # Hauptinterface
+ popup.js # Ticket-Erstellung Logik
+ Options/
+ options.html # Einstellungsseite
+ options.js # Konfigurationsverwaltung
+ icons/ # Extension Icons
+ Doku/ # Projektdokumentation
 ```
 
 ---
 
-## 🔧 Installation & Verwendung
+## Installation & Verwendung
 
 ### Voraussetzungen
 
@@ -116,16 +116,16 @@ ArgoTicketTool/
 
 ---
 
-## 🔒 Sicherheit
+## Sicherheit
 
 ### Implementierte Sicherheitsmaßnahmen
 
-- ✅ **OAuth2-Authentifizierung** statt API-Keys
-- ✅ **Cloudflare Worker Proxy** verhindert direkten API-Zugriff
-- ✅ **Token-Verschlüsselung** in Chrome Storage
-- ✅ **Automatisches Token-Refresh** minimiert Sicherheitsrisiken
-- ✅ **HTTPS-only** Kommunikation
-- ✅ **Input-Validierung** gegen XSS und Injection-Angriffe
+- **OAuth2-Authentifizierung** statt API-Keys
+- **Cloudflare Worker Proxy** verhindert direkten API-Zugriff
+- **Token-Verschlüsselung** in Chrome Storage
+- **Automatisches Token-Refresh** minimiert Sicherheitsrisiken
+- **HTTPS-only** Kommunikation
+- **Input-Validierung** gegen XSS und Injection-Angriffe
 
 ### Datenschutz
 
@@ -135,14 +135,14 @@ ArgoTicketTool/
 
 ---
 
-## 📊 Projekterfolg
+## Projekterfolg
 
 ### Messbare Ergebnisse
 
 - ⏱️ **80% Zeitersparnis** bei der Ticket-Erstellung
-- 📈 **Erhöhte Nutzung** des Support-Systems durch vereinfachten Zugang
-- ✅ **Reduzierte Fehlerquote** durch Formularvalidierung
-- 👥 **Positive Nutzerfeedbacks** von Argo Aviation Mitarbeitern
+- **Erhöhte Nutzung** des Support-Systems durch vereinfachten Zugang
+- **Reduzierte Fehlerquote** durch Formularvalidierung
+- **Positive Nutzerfeedbacks** von Argo Aviation Mitarbeitern
 
 ### Technische Achievements
 
@@ -153,7 +153,7 @@ ArgoTicketTool/
 
 ---
 
-## 🎓 Lernziele & Kompetenzen
+## Lernziele & Kompetenzen
 
 Dieses IHK-Abschlussprojekt demonstriert folgende Fähigkeiten:
 
@@ -166,7 +166,7 @@ Dieses IHK-Abschlussprojekt demonstriert folgende Fähigkeiten:
 
 ---
 
-## 📝 Dokumentation
+## Dokumentation
 
 Die vollständige Projektdokumentation befindet sich im `Doku/` Ordner und umfasst:
 
@@ -179,7 +179,7 @@ Die vollständige Projektdokumentation befindet sich im `Doku/` Ordner und umfas
 
 ---
 
-## 🤝 Über das Projekt
+## Über das Projekt
 
 Dieses Projekt wurde im Rahmen meiner **IHK-Umschulung zum Fachinformatiker für Anwendungsentwicklung** bei der **GFN Hamburg** entwickelt. Die praktische Umsetzung erfolgte während meines sechsmonatigen Praktikums bei der **Argo Aviation GmbH** in Hamburg.
 
@@ -190,22 +190,22 @@ Dieses Projekt wurde im Rahmen meiner **IHK-Umschulung zum Fachinformatiker für
 
 ---
 
-## 👨‍💻 Entwickler
+## ‍ Entwickler
 
 **Tobias Heiko Buß**
-- 📧 Email: tobias.buss.dev@gmail.com
-- 🐙 GitHub: [@tibo47-161](https://github.com/tibo47-161)
-- 📍 Hamburg, Deutschland
+- Email: tobias.buss.dev@gmail.com
+- GitHub: [@tibo47-161](https://github.com/tibo47-161)
+- Hamburg, Deutschland
 
 ---
 
-## 📄 Lizenz
+## Lizenz
 
 Dieses Projekt wurde für **Argo Aviation GmbH** entwickelt und dient als IHK-Abschlussprojekt.
 
 ---
 
-## 🙏 Danksagung
+## Danksagung
 
 Besonderer Dank gilt:
 - **Argo Aviation GmbH** für die Möglichkeit, dieses Projekt umzusetzen
@@ -214,6 +214,6 @@ Besonderer Dank gilt:
 
 ---
 
-⭐ **Wenn dir dieses Projekt gefällt, lass gerne einen Stern da!**
+ **Wenn dir dieses Projekt gefällt, lass gerne einen Stern da!**
 
-*Entwickelt mit ❤️ in Hamburg*
+*Entwickelt mit ️ in Hamburg*
