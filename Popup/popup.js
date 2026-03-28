@@ -1,6 +1,8 @@
 // Cloudflare-Worker-Proxy
-const PROXY_URL = "https://zoho-proxy.tobi196183.workers.dev";
-const PROXY_SECRET = "47Tibo_Proxy_Secret!"; //platzhalter
+// Config is loaded from config.js (see config.example.js — copy and fill in your values)
+/* global CONFIG */
+const PROXY_URL = (typeof CONFIG !== "undefined") ? CONFIG.PROXY_URL : "";
+const PROXY_SECRET = (typeof CONFIG !== "undefined") ? CONFIG.PROXY_SECRET : "";
 
 
 const FIELD = {
